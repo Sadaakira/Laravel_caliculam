@@ -6,6 +6,7 @@ use App\Post;
 use App\Http\Requests\PostRequest;
 //use Illuminate\Http\Request;
 
+
 class PostController extends Controller
 {
     public function index(Post $post)
@@ -36,6 +37,7 @@ class PostController extends Controller
     }
     
     public function update(PostRequest $request, Post $post)
+
     {
         $input = $request['post'];
         $post->fill($input)->save();
