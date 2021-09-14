@@ -43,6 +43,7 @@ class PostController extends Controller
         $post->fill($input)->save();
         return redirect('/posts/' . $post->id);
     }
+<<<<<<< HEAD
     
     public function destroy(Post $post)
     {
@@ -50,3 +51,6 @@ class PostController extends Controller
         return redirect('/');
     }
 }
+=======
+}
+>>>>>>> origin/master
