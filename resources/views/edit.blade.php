@@ -24,4 +24,8 @@
         </form>
            <div class='back'>[<a href="/posts/{{ $post->id }}">back</a>]</div>
     </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> origin/master
